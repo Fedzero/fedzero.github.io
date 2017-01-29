@@ -1,0 +1,57 @@
+body {
+  overflow: auto
+}
+p {
+  font-size: 18px
+}
+span {
+  font-size: 18px;
+  font-weight: 300
+}
+a:hover, a:link, a:visited {
+  text-decoration: none;
+  color: #333
+}
+.center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 600px;
+  zoom: 115%;
+}
+.card {
+  width: 600px;
+}
+.card-row {
+  border-bottom: 1px solid gray;
+  padding-bottom: 18px
+}
+.card-picture {
+  width: 120px;
+  height: auto;
+  border-radius: 120px
+}
+.card-left {
+  float: left;
+  padding-right: 40px
+}
+.card-right {
+  padding-top: 10px
+}
+.card-name {
+  font-weight: 500px;
+  font-size: 30px;
+  margin-bottom: -5px
+}
+.card-desc {
+  color: gray;
+  font-weight: 300px;
+  font-size: 20px
+}
+.info {
+  padding-top: 13px
+}
+.contact {
+  padding-top: 13px
+}
