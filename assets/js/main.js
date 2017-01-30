@@ -1,5 +1,3 @@
-console.log('Faded');
-$(document).ready(function () {
-    $('center').fadeIn(1000).removeClass('hidden');
-    console.log('Faded');
+$(function(){  
+  $('.center').hide().fadeIn(750);
 });
