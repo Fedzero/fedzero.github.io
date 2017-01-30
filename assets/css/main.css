@@ -19,6 +19,7 @@ a:hover, a:link, a:visited {
   transform: translate(-50%, -50%);
   width: 600px;
   zoom: 115%;
+  display:none /*For fade in*/
 }
 .card {
   width: 600px;
