@@ -23,9 +23,13 @@
 </head>
 
 <body>
- 
-<!-- js -->
-<link src="/assets/js/main.js"> 
+<script>
+console.log('Faded');
+$(document).ready(function () {
+    $('center').fadeIn(1000).removeClass('hidden');
+    console.log('Faded');
+});
+</script>  
   
   <div class="container">
     <div class="center">
@@ -54,15 +58,6 @@
       </div>
     </div>
   </div> 
-
-<script>
-console.log('Faded');
-$(document).ready(function () {
-    $('center').fadeIn(1000).removeClass('hidden');
-    console.log('Faded');
-});
-</script>  
-
 </body>
 
 </html>
